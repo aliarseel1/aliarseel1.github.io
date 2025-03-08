@@ -1,0 +1,43 @@
+body {
+  background-color: #272727;
+  color: #eeeeee;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+article {
+  margin: 2% 5.5%;
+  padding: 8px;
+}
+
+.half {
+  display: flex;
+  justify-content: space-between;
+}
+
+.half ol {
+  float: left;
+}
+
+.half img {
+  float: right;
+}
+
+nav {
+  margin-top: 40px;
+}
+
+#back {
+  float: left;
+}
+
+#next {
+  float: right;
+}
+
+a {
+  color: #aaaaaa;
+}
+
+a:hover {
+  color: #bbbbbb;
+}
